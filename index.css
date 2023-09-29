@@ -148,6 +148,7 @@ nav ul li a:hover{
 .isi-hobi{
     margin: 30px 40px 100px;
 }
+/* Skiills */
 
 .skill{
     height: 100%;
@@ -207,28 +208,7 @@ nav ul li a:hover{
     border-radius: 0px 0px 10px 10px;
 
 }
-
-footer{
-  height: 130px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  background-color: bisque;
-  padding: 0px;
-  margin-top: 5px;
-  flex-direction: column;
-}
-.social-media{
-    display: flex;
-    
-}
-.social-media a i{
-    margin: 10px;
-    width: 30px;
-    height: auto;
-    color: black;
-}
+/* Bagian Kontak */
 .kulit{
 
     background-color: azure;
@@ -307,3 +287,25 @@ button{
     background-color:green;
     color: white;
 }
+/* Bagian Footer */
+footer{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: bisque;
+    padding: 0px;
+    margin-top: 5px;
+    flex-direction: column;
+  }
+  .social-media{
+      display: flex;
+      
+  }
+  .social-media a i{
+      margin: 10px;
+      width: 30px;
+      height: auto;
+      color: black;
+  }
