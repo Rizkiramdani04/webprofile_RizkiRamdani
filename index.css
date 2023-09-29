@@ -1,0 +1,309 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Bagian Navbar */
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50; /* Gunakan z-index untuk mengatur tumpukan elemen; Anda dapat menyesuaikan nilainya jika diperlukan */
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #e7e7e7;
+    padding: 0px 5%;
+    
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li a{
+    margin: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 1s;
+
+
+}
+nav ul li a:hover{
+    background-color: grey;
+    color: pink;
+    padding: 5px;
+    border-radius: 15px;
+}
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    font-size: 32px;
+    font-weight:bold;
+    
+
+}
+/* Tutup Navbar */
+/* Bagian Home */
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #D9D9D9;
+}
+.isi{
+    margin-top: 60px;
+    position: absolute;
+    top: 20%;
+    transform: translate(20%,70%);
+    margin: 20px 0px 20px 0px;
+   
+}
+.isi p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+    margin: 10px;
+    position: relative;
+}
+.isi span{
+    color: rgb(70, 70, 27);
+}
+.gambar{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    right: 15%;
+    top: 30%;
+    transform: translateX(-10%);
+    border-radius: 15px;
+}
+/* Tutup Home */
+/* Bagian about */
+.about{
+    height: 90vh;
+    background-color: white;
+    padding: 2% 10% 10%;
+    margin-top: 60px;
+}
+
+.about-isi{
+   margin: 0px 0px 50px 0px;
+
+}
+
+.about-isi h1:nth-child(1){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 32px;
+}.about-isi p:nth-child(2){
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+.about-isi p:nth-child(3){
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+.about-isi p:nth-child(4){
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 170px;
+    font-size: 16px;
+}
+.baris{
+   display: flex;
+   justify-content: center;
+   font-family:'Courier New', Courier, monospace;
+    
+}
+
+.isi-lahir,
+.isi-pendidikan,
+.isi-hobi{
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.isi-hobi{
+    margin: 30px 40px 100px;
+}
+
+.skill{
+    height: 100%;
+    background-color:#D9D9D9;
+    padding: 2% 10% 10%;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+    
+    
+}
+.skill-isi h1:nth-child(1){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-top: 50px;
+}.skill-isi p:nth-child(2){
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: -30px;
+}
+.html,
+.css,
+.js,
+.figma{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 20px 0px 0px 0px;
+    margin-top:0px;
+}
+.css{
+    margin: 0px 30px;
+}
+.js{
+    margin: 0px 30px 0px 0px;
+}
+.html img,
+.css img,
+.js img,
+.figma img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.isi-p{
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+footer{
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: bisque;
+  padding: 0px;
+  margin-top: 5px;
+  flex-direction: column;
+}
+.social-media{
+    display: flex;
+    
+}
+.social-media a i{
+    margin: 10px;
+    width: 30px;
+    height: auto;
+    color: black;
+}
+.kulit{
+
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 0 7px 14px rgb(66, 45, 20);
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+   
+}
+.kulit2{
+    display: flex;
+}
+.left{
+    flex: 1;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    display: flex;
+
+}
+.left-kulit{
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+
+}
+.right{
+    display: flex;
+    flex: 1;
+    height: 600px;
+    background-color: azure;
+   
+}
+.right-isi h2{
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+
+    
+
+}
+.form{
+    margin: 0px 30px;
+}
+.form label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.isi-form,
+.isi-formm{
+    margin: 10px 30px;
+}
+.isi-form input{
+    width: 250px;
+    height: 20px;
+    border-radius: 0px 5px 5px 0px;
+    border-color: #e7e7e7;
+}
+.isi-formm input{
+    width: 250px;
+    height: 100px;
+    border-radius: 0px 5px 5px 0px;
+    border-color: #e7e7e7;
+}
+button{
+    margin:0px 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:green;
+    color: white;
+}
